@@ -1,0 +1,10 @@
+.lead {
+    margin: 0 auto 22px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: start;
+    padding-top: 56;
+    max-width: 984px;
+}   
