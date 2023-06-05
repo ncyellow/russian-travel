@@ -1,6 +1,6 @@
 .page {
     background-color: #2A2C2F;
-    max-width: 1600px;
+    max-width: 984px;
     /* выше установили ограничение по максимальной ширине */
     margin: 0 auto;
 }
