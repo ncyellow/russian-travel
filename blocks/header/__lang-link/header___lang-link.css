@@ -1,11 +1,22 @@
 .header___lang-link {
+    font-family: 'Inter';
+    font-style: normal;
     line-height: 28px;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
     text-align: right;
     text-decoration: underline;
-    max-width: 30px;
     max-height: 28px;
     margin: 18px 0 6px 0;
+}
+
+@media (max-width: 320px) {
+    .header___lang-link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

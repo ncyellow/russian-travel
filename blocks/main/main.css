@@ -4,3 +4,15 @@
     justify-content: center;
     row-gap: 92px;
 }
+
+@media (max-width: 786px) {
+    .main {
+        row-gap: 88px;
+    }
+}
+
+@media (max-width: 320px) {
+    .main {
+        row-gap: 64px;
+    }
+}

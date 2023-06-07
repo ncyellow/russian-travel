@@ -7,6 +7,14 @@
     text-align: center;
     word-wrap: break-word;
     color: #FFFFFF;
-    max-width: 720px;
+    max-width: min(720px, 100vw - 32px);
     margin: 0;
+}
+
+
+@media (max-width: 320px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
 }
