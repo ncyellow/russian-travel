@@ -9,6 +9,13 @@
     text-decoration: underline;
     max-height: 28px;
     margin: 18px 0 6px 0;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
+    text-rendering: optimizeLegibility;
 }
 
 @media (max-width: 320px) {

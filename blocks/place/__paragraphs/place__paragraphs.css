@@ -5,4 +5,12 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    grid-area: paragraphs;
+}
+
+@media (max-width: 320px) {
+    .place__paragraphs {
+        padding: 0 16px 0 16px;
+        box-sizing: border-box;
+    }
 }

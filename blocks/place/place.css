@@ -1,7 +1,21 @@
 .place {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(min-content, 4);
+    grid-template-areas: 
+    "title website"
+    "image paragraphs";
     column-gap: 40px;
     row-gap: 48px;
+}
+
+@media (max-width: 320px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "paragraphs";
+        row-gap: 32px;
+    }
 }

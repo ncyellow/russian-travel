@@ -6,4 +6,29 @@
     line-height: 76px;
     color: #FFFFFF;
     margin: 0;
+    grid-area: title;
+    word-wrap: break-word;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
+    text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 786px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0 16px 0 16px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
 }

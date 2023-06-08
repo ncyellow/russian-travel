@@ -9,10 +9,10 @@
     text-decoration: none;
     color: #fff;
     min-height: 740px;
-    /* min-width: 1184px; */
+    min-width: min(1184px, 100vw);
     position: relative;
     z-index: 0;
-    width: 100%;
+    /* width: 100%; */
 
 }
 
@@ -36,7 +36,6 @@
 
 @media (max-width: 1024px) {
     .cover__background {
-        /* min-width: 1024px; */
     }
 }
 

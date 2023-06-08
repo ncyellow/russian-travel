@@ -8,7 +8,6 @@
 
 @media (max-width: 320px) {
     .header__links {
-        margin: 0;
         margin: 14px 0 8px 0px;
     }
 }

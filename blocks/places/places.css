@@ -1,7 +1,14 @@
 .places {
     display: flex;    
     flex-direction: column;
+    flex-wrap: wrap;
     row-gap: 80px;
-    max-width: 984px;
+    max-width: min(984px, 100vw);
     margin: 0 auto;
+}
+
+@media (max-width: 320px) {
+    .places {
+        row-gap: 50px;
+    }
 }

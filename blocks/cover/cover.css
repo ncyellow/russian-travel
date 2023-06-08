@@ -3,14 +3,13 @@
     justify-content: center;
     align-items: center;
     min-height: 740px;
-    max-width: 1184px;
-    margin: 0 48px 0 48px;
+    max-width: min(1184px, 100vw);
+    margin: 0 auto 0 auto;
 }
 
 
 @media (max-width: 1024px) {
     .cover {
-        margin: 0;
     }
 }
 
