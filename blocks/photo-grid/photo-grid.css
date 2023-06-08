@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 16px;
-    min-width: min(1184px, 100vw);
+    max-width: min(1184px, 100vw);
     margin: 0 auto 0 auto;
 }
 
@@ -15,7 +15,7 @@
 @media (max-width: 786px) {
     .photo-grid {
         grid-template-columns: 1fr 1fr;
-        min-width: min(1184px, 100vh - 48px);
+        max-width: min(1184px, 100vh - 48px);
     }
 }
 
@@ -24,7 +24,7 @@
 @media (max-width: 320px) {
     .photo-grid {
         grid-template-columns: 1fr;
-        min-width: min(1184px, 100vh - 32px);
+        max-width: min(1184px, 100vh - 32px);
         gap: 12px;
     }
 }
