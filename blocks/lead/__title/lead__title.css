@@ -1,21 +1,15 @@
 .lead__title {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    word-wrap: break-word;
     color: #FFFFFF;
     max-width: min(720px, 100vw - 32px);
     margin: 0;
 
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
+
 }
 
 

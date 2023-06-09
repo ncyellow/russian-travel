@@ -7,6 +7,19 @@
     margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+    .places {
+        max-width: min(928px, 100vw);
+    }
+}
+
+@media (max-width: 768px) {
+    .places {
+        row-gap: 72px;
+        max-width: min(720px, 100vw);
+    }
+}
+
 @media (max-width: 320px) {
     .places {
         row-gap: 50px;
