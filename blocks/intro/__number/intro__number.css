@@ -1,15 +1,9 @@
-.intro__list {
+.intro__number {
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    align-self: flex-start;
-    padding: 0;
     margin: 0;
 }
