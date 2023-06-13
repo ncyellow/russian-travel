@@ -6,10 +6,9 @@
     line-height: 100px;
     text-align: center;
     color: #FFFFFF;
-    max-width: min(720px, 100vw - 32px);
+    max-width: min(720px, 100vw);
     margin: 0;
-
-
+    overflow: hidden;
 }
 
 

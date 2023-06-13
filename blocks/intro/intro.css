@@ -3,5 +3,5 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: min(984px, 100vw - 32px);
+    min-width: min(984px, 100vw - 32px);
 }   

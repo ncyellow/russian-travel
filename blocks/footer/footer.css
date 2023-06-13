@@ -14,12 +14,11 @@
     }
 }
 
-
-
 @media (max-width: 320px) {
     .footer {
         flex-direction: column;
         row-gap: 32px;
+        min-height: 310px;
         margin: 64px 0 24px 16px;
     }
 }
