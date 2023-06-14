@@ -6,3 +6,16 @@
     padding: 0;
     margin: 0 auto 0 auto;
 }
+
+@media (max-width: 786px) {
+    .places__list {
+        row-gap: 73px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .places__list {
+        row-gap: 50px;
+    }
+}

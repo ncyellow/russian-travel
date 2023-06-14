@@ -7,21 +7,21 @@
     color: #FFFFFF;
     margin: 0;
     grid-area: title;
-    word-wrap: break-word;
 }
 
 @media (max-width: 786px) {
     .place__title {
-        font-size: 32px;
-        line-height: 35px;
-        padding: 0 16px 0 16px;
-        box-sizing: border-box;
+        font-size: 42px;
+        line-height: 46px;
     }
+
+
 }
 
 @media (max-width: 320px) {
     .place__title {
-        font-size: 42px;
-        line-height: 46px;
+        margin: 0 16px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
