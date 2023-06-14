@@ -3,5 +3,13 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    min-width: min(984px, 100vw - 32px);
-}   
+    min-width: min(984px, 100vw);
+}
+
+
+@media (max-width: 1024px) {
+    .intro {
+        min-width: min(928px, 100vw);
+    }
+}
+
