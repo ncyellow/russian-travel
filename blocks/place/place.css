@@ -19,8 +19,7 @@
     .place {
         column-gap: 28px;
         row-gap: 48px;
-        grid-template-columns: 340px 1fr;
-        grid-template-columns: 340px 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 

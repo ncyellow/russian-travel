@@ -7,6 +7,8 @@
     color: #FFFFFF;
     margin: 0;
     grid-area: title;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 @media (max-width: 786px) {

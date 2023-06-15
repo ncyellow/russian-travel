@@ -17,6 +17,7 @@
     .intro {
         min-width: min(720px, 100vw);
         justify-content: center;
+        align-items: center;
     }
 }
 
@@ -25,6 +26,7 @@
     .intro {
         min-width: min(288px, 100vw);
         justify-content: center;
+        align-items: center;
     }
 }
 

@@ -7,10 +7,6 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
-    word-wrap: break-word;
-    
-
-          
 }
 
 @media (max-width: 1024px) {
@@ -24,6 +20,8 @@
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
+        max-width: 100%;
+        overflow: hidden;
     }
 }
 
