@@ -17,8 +17,6 @@
         /* Такая комбинация не отжирает место и не ломает макет */
         max-width: 100vw;
         overflow: hidden;
-        font-size: 40px;
-        line-height: 44px;
     }
 }
 
