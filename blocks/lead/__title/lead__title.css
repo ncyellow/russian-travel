@@ -11,12 +11,20 @@
 }
 
 
-
-@media (max-width: 768px) {
+/** Чтобы не было переносов и наш красивый текст всегда был
+    в две строчки самое красивое просто на переломных моментах менять шрифт
+*/
+@media (max-width: 680px) {
     .lead__title {
-        /* Такая комбинация не отжирает место и не ломает макет */
-        max-width: 100vw;
-        overflow: hidden;
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+@media (max-width: 450px) {
+    .lead__title {
+        font-size: 42px;
+        line-height: 46px;
     }
 }
 

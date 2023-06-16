@@ -2,17 +2,19 @@
     list-style: none;
     padding: 0;
     margin: 0 auto 0 auto;
+    line-height: 0;
  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 16px;
-    min-width: min(1184px, 100vw);
+    max-width: 1184px;
+    width: 100vw;
 }
 
 @media (max-width: 1024px) {
     .photo-grid__list {
         grid-template-columns: 1fr 1fr 1fr;
-        min-width: min(928px, 100vw);
+        max-width: 928px;
         gap: 14px;
     }
 }
@@ -20,7 +22,7 @@
 @media (max-width: 786px) {
     .photo-grid__list {
         grid-template-columns: 1fr 1fr;
-        min-width: min(720px, 100vw);
+        max-width: 720px;
         gap: 16px;
     }
 }
@@ -29,7 +31,7 @@
 @media (max-width: 320px) {
     .photo-grid__list {
         grid-template-columns: 1fr;
-        min-width: min(288px, 100vw - 32px);
+        max-width: 288px;
         gap: 12px;
     }
 }
