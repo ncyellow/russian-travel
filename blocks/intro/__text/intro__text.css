@@ -7,11 +7,3 @@
     color: #FFFFFF;
     margin: 0 0 33px 0;
 }
-
-
-@media (max-width: 320px) {
-    .intro__text {
-        /** Так точнее попадание в pixel perfect */
-        margin: 0 0 33px 0;
-    }
-}
