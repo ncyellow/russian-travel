@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    row-gap: 80px;
     max-width: min(984px, 100vw);
     margin: 0 auto;
 }
@@ -15,7 +14,6 @@
 
 @media (max-width: 768px) {
     .places {
-        row-gap: 72px;
         max-width: min(720px, 100vw);
     }
 }
