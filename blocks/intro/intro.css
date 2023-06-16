@@ -1,31 +1,37 @@
 .intro {
-    margin: 0 auto 0 auto;
+    margin: 0 148px;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    min-width: min(984px, 100vw);
+    align-self: flex-start;
+    max-width: 984px;
 }
 
 
 @media (max-width: 1024px) {
     .intro {
-        min-width: min(928px, 100vw);
+        max-width: 928px;
+        margin: 0 48px;
+
     }
 }
 
 @media (max-width: 768px) {
     .intro {
-        min-width: min(720px, 100vw);
+        max-width: 100%;
         justify-content: center;
+        margin: 0 24px;
     }
 }
 
 
 @media (max-width: 320px) {
     .intro {
-        min-width: min(288px, 100vw);
+        max-width: 288px;
         justify-content: center;
         align-items: center;
+        margin: 0 16px;
+
     }
 }
 
