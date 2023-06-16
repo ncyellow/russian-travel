@@ -49,6 +49,7 @@
 @media (max-width: 320px) {
     .cover__background {
         min-height: 200px;
+        row-gap: 16px;
     }
 }
 
