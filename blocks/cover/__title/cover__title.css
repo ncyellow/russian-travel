@@ -9,7 +9,7 @@
     max-width: min(560px, 100vw);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
     .cover__title {
         font-size: 42px;
         line-height: 45px;
